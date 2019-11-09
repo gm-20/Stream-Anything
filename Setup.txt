@@ -1,0 +1,7 @@
+
+
+--> Install Open Broadcasting Software (OBS) --> To broadcast RTMP stream to my local server.
+
+--> Install ffmpeg--> Used for transcoding RTMP to HLS stream
+
+-->Database Location --> C:/data/db 

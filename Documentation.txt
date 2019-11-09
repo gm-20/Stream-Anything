@@ -1,0 +1,49 @@
+
+Objective : Live Streaming Desktop Application for authenticated users
+
+Transcoding RTMP streams(Desktop) to HLS streams(Web Browser) using ffmpeg lib.
+
+1st part: Web Server with Basic authentication
+
+Setting web server with express and applying session,passport authentication lib along with other middleware.
+
+2nd Part : RTMP Server
+
+Lib node-media-server, a Node.js implementation of RTMP media server.
+
+This library accepts RTMP stream(from OBS ) and transcode it to HLS stream using ffmpeg codec.
+
+
+3rd Part: Using React for frontend
+
+-->web.config.js file contains all config.(similar to package.json)
+
+--><Root/> component renders a react <Router/> to hold three sub <Route/> components
+
+--><LiveStreams/> component will render all the live streams.
+
+--><VideoPlayer/> will render video.js player components.
+
+--><Settings/> component will provide an interface for generating a new streaming key.
+
+4th Part: Issuing streaming keys to broadcasters
+
+In Setting.js updated routes to get and update Stream key.
+
+
+5th part: Generating Live Stream Thumbnails
+
+Used Cron lib to generate thumbnail after every 5 sec.
+
+Cron is a tool that allows you to execute something on a schedule.
+
+
+
+
+
+
+
+
+
+
+
