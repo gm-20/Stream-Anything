@@ -28,7 +28,7 @@
     "express-session": "^1.17.0",
     "file-loader": "^4.2.0",
     "history": "^4.10.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mini-css-extract-plugin": "^0.8.0",
     "mongoose": "^5.7.8",
     "node-media-server": "^2.1.4",
