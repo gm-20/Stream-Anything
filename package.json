@@ -32,7 +32,7 @@
     "mini-css-extract-plugin": "^0.8.0",
     "mongoose": "^5.7.8",
     "node-media-server": "^2.1.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "popper.js": "^1.16.0",
